@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.filters button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.filters button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.clear-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.clear-button:hover {
+  background-color: #cc0000;
+}
