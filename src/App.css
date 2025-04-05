@@ -61,3 +61,38 @@ li.completed {
 .clear-button:hover {
   background-color: #cc0000;
 }
+
+/* App.css */
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin: 10px 0;
+  width: 70%;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.clear-button {
+  margin-top: 10px;
+  background-color: #e74c3c;
+  color: white;
+}

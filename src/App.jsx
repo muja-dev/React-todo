@@ -99,9 +99,10 @@ function App() {
                 </>
               ) : (
                 <>
-                  <span onClick={() => handleToggleComplete(task.id)}>
-                    {task.text}
-                  </span>
+                  <span>{task.text}</span>
+                  <button onClick={() => handleToggleComplete(task.id)}>
+                    {task.completed ? 'Undo' : 'Complete'}
+                  </button>
                   <button onClick={() => handleEditTask(task.id, task.text)}>Edit</button>
                   <button onClick={() => handleDeleteTask(task.id)}>Delete</button>
                 </>
